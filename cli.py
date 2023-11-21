@@ -220,7 +220,7 @@ def get_mastodon_client():
         client_id=os.getenv("MASTODON_CLIENT_KEY"),
         client_secret=os.getenv("MASTODON_CLIENT_SECRET"),
         access_token=os.getenv("MASTODON_ACCESS_TOKEN"),
-        api_base_url="https://mastodon.palewi.re",
+        api_base_url="https://mastodon.social",
     )
 
 
